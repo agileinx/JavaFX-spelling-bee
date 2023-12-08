@@ -1,0 +1,72 @@
+.root{
+	-fx-font-size: 14pt;
+	-fx-background-color: #edebeb;
+	
+}
+
+.button{
+	-fx-background-color: gold;
+	-fx-text-fill: black;
+	-fx-background-radius: 8;
+}
+
+.button-white {
+	-fx-background-color: white;
+	-fx-text-fill: black;
+	-fx-background-radius: 8;
+	-fx-border-color: black;
+	
+}
+
+.button-white:hover {
+	
+	-fx-background-color: #f2f3f5;
+	-fx-text-fill: black;
+	-fx-background-radius: 8;
+	-fx-border-color: black;
+	
+}
+
+.text-field {
+	-fx-text-box-border: transparent;
+}
+
+.text-field:focused {
+	-fx-focus-color: transparent;
+}
+
+.letter_Button {
+	-fx-background-image: url('hexagon_white.png');
+	-fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 110px;
+    -fx-pref-height: 110px;
+    -fx-pref-width: 110px;
+    
+}
+
+.letter_Button:hover {
+	
+	-fx-background-image: url('Letter_Button_Hover.png');
+	
+}
+
+.letter_Button_Center {
+	-fx-background-image: url('hexagon.png');
+	-fx-background-color: transparent;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 110px;
+    -fx-pref-height: 110px;
+    -fx-pref-width: 110px;
+    
+}
+
+.letter_Button_Center:hover {
+	
+	-fx-background-image: url('letter_button_centered_hover.png');
+	
+}
+
+
